@@ -34,7 +34,7 @@ Button1.addEventListener("click", () => {
     result.innerText = counter
 
     if (counter == 33) {
-        window.navigator.vibrate([100, 80, 60, 50])
+        window.navigator.vibrate([200, 200, 200, 200, 200, 200])
     }
 })
 
