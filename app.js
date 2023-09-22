@@ -35,6 +35,10 @@ Button1.addEventListener("click", () => {
 
     if (counter == 33) {
         window.navigator.vibrate([200, 200, 200, 200, 200, 200])
+    } else if (counter == 66) {
+        window.navigator.vibrate([200, 200, 200, 200, 200, 200])
+    } else if (counter == 99) {
+        window.navigator.vibrate([200, 200, 200, 200, 200, 200])
     }
 })
 
